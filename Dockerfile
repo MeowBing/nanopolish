@@ -6,7 +6,7 @@ RUN git clone --recursive https://github.com/jts/nanopolish.git \
     && cd nanopolish \
     && make
 
-ENV PATH="/app/nanopolish2:${PATH}"
+ENV PATH="/app/nanopolish:${PATH}"
 
 
 CMD ["bash"]
